@@ -12,7 +12,7 @@ The first thing we will do is create a table. In `db/migrate/01_create_students.
 
 Next, define a method called `change` and use the ActiveRecord `create_table` method within that method to create the table. The table should have a `:name` column with a type `string`.
 
-After you finish defining the `change` method, run the migrations by running `rake db:migrate` in your terminal.
+After you finish defining the `change` method, run the migrations by running `rake db:migrate` in your terminal.02_add_grade_and_birthdate_to_students.rb
 
 ## Adding a column
 
